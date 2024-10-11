@@ -16,6 +16,10 @@
     <img src="/img/iceland.jpg" alt="iceland">
     <input type="radio" name="termek" value="iceland">Izland
   </label>
+  <label>
+    <img src="/img/la.jpg" alt="la">
+    <input type="radio" name="termek" value="la">Los Angeles
+  </label>
     Név: <input type="text" name="nev"><br>
     Kuponkód: <input type="text" name="kupon"><br>
     <h2>Számlázás</h2>
@@ -34,6 +38,10 @@
     Bankkártya: <input type="text" name="bankkartya"><br>
     Lejárat: <input type="text" name="lejarat"><br>
     Biztonsági kód: <input type="text" name="biztonsag">
+
+    <% for ( let e of errors){ %>
+      <div class="alert alert-danger"></div>
+    }
 
     <input type="submit" value="Vásárol">
   </form>

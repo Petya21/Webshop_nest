@@ -1,7 +1,9 @@
 label{
-  display: block;
+  display: inline-block;
   img{
-    width: 400px;
+    width: 300px;
   }
 }
-
+.alert-danger{
+  background-color: red;
+}
